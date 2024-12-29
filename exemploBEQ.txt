@@ -1,0 +1,35 @@
+200a0007
+200b0008
+114b0003
+20010001
+01615822
+014b4820
+012b6820
+114b0006
+014b7022
+014b7820
+11ee0001
+01604022
+212803e8
+014a4820
+20080037
+0000000c
+
+
+addi $t2,$0,7 ----------------- $t2 = 7
+addi $t3,$0,8 ----------------- $t3 = 8
+beq $t2,$t3, next ------------- BRANCH NÃO É TOMADO
+sub $t3, $t3, 1 --------------- $t3 = 7
+add $t1,$t2,$t3 --------------- $t1 = 14
+next: add $t5,$t1,$t3 --------- $t5 = 21
+beq $t2,$t3, end -------------- BRANCH É TOMADO
+sub $t6, $t2,$t3 -------------- NÃO OCORRE
+add $t7,$t2,$t3 --------------- NÃO OCORRE
+beq $t7,$t6, notTaken --------- NÃO OCORRE
+sub $t0, $t3, $0 -------------- NÃO OCORRE
+notTaken : addi $t0,$t1,1000 -- NÃO OCORRE
+add $t1,$t2,$t2 --------------- NÃO OCORRE
+end: addi $t0, $0, 55 --------- $t0 =55 
+
+OBSERVAÇÃO: Nesse caso, o registrador at é igual a 1
+Como não utiliza a memória, nem é criado o arquivo referente a ela.

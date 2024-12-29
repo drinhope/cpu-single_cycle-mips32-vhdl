@@ -1,0 +1,54 @@
+Riviera-PRO 2023.04.112.8911(Linux64) 2024-12-28 21:11:26
+
+Elaboration top modules:
+Architecture                  test(testbench)
+
+
+------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library | Info | Compiler Version      | Compilation Options
+------------------------------------------------------------------------------------------------
+testbench         | test         | work    |      | 2023.04.112 (Linux64) |  -2019
+top               | test         | work    |      | 2023.04.112 (Linux64) |  -2019
+mips              | struct       | work    |      | 2023.04.112 (Linux64) |  -2019
+InstructionMemory | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+dataMemory        | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+controladora      | struct       | work    |      | 2023.04.112 (Linux64) |  -2019
+datapath          | struct       | work    |      | 2023.04.112 (Linux64) |  -2019
+mainDecoder       | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+aluDecoder        | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+flipFlop          | assincrono   | work    |      | 2023.04.112 (Linux64) |  -2019
+somador           | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+shiftLeftLogic    | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+multiplexor       | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+registerFile      | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+signalExtension   | behave       | work    |      | 2023.04.112 (Linux64) |  -2019
+alu               | synth        | work    |      | 2023.04.112 (Linux64) |  -2019
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package                     | Library | Info | Compiler Version      | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                         | std     |      |                       | <unavailable>
+TEXTIO                           | std     |      | 2023.04.112 (Linux64) |  -2019
+std_logic_1164                   | ieee    |      | 2023.04.112 (Linux64) |  -2008
+NUMERIC_STD                      | ieee    |      | 2023.04.112 (Linux64) |  -2008
+NUMERIC_STD_UNSIGNED             | ieee    |      | 2023.04.112 (Linux64) |  -2008
+std_logic_textio                 | ieee    |      | 2023.04.112 (Linux64) | <unavailable>
+std_logic_arith                  | ieee    |      | 2023.04.112 (Linux64) | <unavailable>
+STD_LOGIC_UNSIGNED               | ieee    |      | 2023.04.112 (Linux64) | <unavailable>
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                          | Comment
+------------------------------------------------------------------------------------------------
+ieee                             | Standard IEEE packages library
+std                              | Standard VHDL library
+work                             | None
+------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim testbench
+
+License to run VHDL performance optimized simulation unavailable.
+
+The performance of simulation is reduced. Version EDU Edition

@@ -1,0 +1,30 @@
+20010001
+20020001
+20030001
+20040001
+20050001
+20060001
+20070001
+20080001
+20090001
+200a0001
+200b0001
+200c0001
+20110001
+0000000c
+
+CÓDIGO MIPS
+
+addi $1, $0, 1
+addi $2, $0, 1
+addi $3, $0, 1
+addi $4, $0, 1
+addi $5, $0, 1
+addi $6, $0, 1
+addi $7, $0, 1
+addi $8, $0, 1
+addi $9, $0, 1
+addi $10, $0, 1
+addi $11, $0, 1
+
+Como não utiliza a memória, nem é criado o arquivo referente a ela.

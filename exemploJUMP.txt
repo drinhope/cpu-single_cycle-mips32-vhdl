@@ -1,0 +1,29 @@
+200a000a
+200b000a
+08100005
+200c0007
+014b4820
+014b6820
+014b7022
+014b7820
+0810000a
+01604022
+20080037
+0000000c
+
+
+CÓDIGO MIPS
+
+addi $t2,$0,10 --------- $t2 = 10
+addi $t3,$0,10 --------- $t3 = 10
+j next
+addi $t4, $0, 7 -------- NAO OCORRE
+add $t1,$t2,$t3 -------- NAO OCORRE
+next: add $t5,$t2,$t3 -- $t5 = 20 
+sub $t6, $t2,$t3 ------- $t6 = 0
+add $t7,$t2,$t3 -------- $t7 = 20
+j end
+sub $t0, $t3, $0 ------- NAO OCORRE
+end: addi $t0, $0,30 --- $t0 = 55 
+
+Como não utiliza a memória, nem é criado o arquivo referente a ela.

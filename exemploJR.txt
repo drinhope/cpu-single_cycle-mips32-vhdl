@@ -1,0 +1,14 @@
+2002000c
+00400008
+ac020000
+20420001
+0000000c
+
+CODIGO MIPS
+
+addi $2, $0, 12
+jr $2
+sw $2, 0($0)
+addi $2, $2, 1
+
+Como não utiliza a memória, nem é criado o arquivo referente a ela.

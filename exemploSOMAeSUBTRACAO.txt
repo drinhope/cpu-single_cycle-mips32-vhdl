@@ -1,0 +1,22 @@
+200a000a
+200b000a
+200c0007
+014b4820
+012c6820
+014b7022
+012c7822
+01604022
+0000000c
+
+CÓDIGO MIPS
+
+addi $t2,$0,10 ----- $t2 = 10
+addi $t3,$0,10 ----- $t3 = 10
+addi $t4, $0, 7 ---- $t4 = 7
+add $t1,$t2,$t3 ---- $t1 = 20
+add $t5,$t1,$t4 ---- $t5 = 27
+sub $t6, $t2,$t3 --- $t6 = 0
+sub $t7,$t1,$t4  --- $t7 = 13
+sub $t0, $t3, $0 --- $t0 = 10
+
+Como não utiliza a memória, nem é criado o arquivo referente a ela.

@@ -1,0 +1,22 @@
+200a000a
+0c100005
+200c0007
+200d000a
+200e000a
+014a6820
+014a7820
+0000000c
+
+CÓDIGO MIPS
+
+addi $t2,$0,10 --------- $t2 = 10
+jal next --------------- TOMA O JUMP
+addi $t4, $0, 7 -------- NAO OCORRE
+addi $t3,$0,10 --------- NAO OCORRE
+addi $t5,$0,10 --------- NAO OCORRE
+addi $t6,$0,10 --------- NAO OCORRE
+next: add $t5,$t2,$t2 -- $t5 = 20   
+add $t7,$t2,$t2 -------- $t7 = 20
+
+valor do registrador $ra = 8
+Como não utiliza a memória, nem é criado o arquivo referente a ela.
